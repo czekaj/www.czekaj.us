@@ -1,134 +1,132 @@
 html {
-    font-size: 16px;
-    text-transform: lowercase;
-    background-color: inherit !important;
+  font-size: 16px;
+  text-transform: lowercase;
+  background-color: inherit !important;
 }
 
 body {
-    background: url('assets/bg-vegas.jpg') no-repeat center bottom;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: rgba(40, 40, 40, 0.2);
+  background: url("assets/bg-vegas.jpg") no-repeat center bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(40, 40, 40, 0.2);
 }
 
 .box {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 400px;
-    transform: translate(-50%, -50%);
-    padding: 20px;
-    text-align: center;
-    background-color: rgba(10, 10, 10, 0.8);
-    font-family: 'Actor', sans-serif;
-    color: white;
-    box-shadow: 0 0px 50px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 5px;
-    font-weight: lighter;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 400px;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(10, 10, 10, 0.8);
+  font-family: "Actor", sans-serif;
+  color: white;
+  box-shadow: 0 0px 50px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  font-weight: lighter;
 }
 
 .box h1 {
-    font-size: 4rem;
-    margin-bottom: 0px;
+  font-size: 4rem;
+  margin-bottom: 0px;
 }
 
 .box h2 {
-    font-size: 1rem;
-    letter-spacing: 0.1rem;
-    margin-bottom: 40px;
+  font-size: 1rem;
+  letter-spacing: 0.08rem;
+  margin-bottom: 40px;
 }
 
 .box h5 {
-    font-size: 0.8rem;
-    font-weight: lighter;
-    letter-spacing: 0.45rem;
-    margin-block-end: 0px;
-    margin-top: 5px;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  letter-spacing: 0.45rem;
+  margin-block-end: 0px;
+  margin-top: 5px;
 }
 
 .box div {
-    font-size: 1.2rem;
-    margin-top: 10px;
-    margin-bottom: 0px;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
 
 .box h5 svg {
-    font-size: 1rem;
-    margin-right: 15px;
+  font-size: 1rem;
+  margin-right: 15px;
 }
 
 .box p {
-    padding: 10px;
+  padding: 10px;
 }
 
 #photo {
-    position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    left: 0;
-    right: 0;    
-    top: -60px;
-  
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: -60px;
 }
 
 #photo img {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%; 
-    box-shadow: 0 0px 8px 5px rgba(0, 0, 0, 0.3);
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  box-shadow: 0 0px 8px 5px rgba(0, 0, 0, 0.3);
 }
 
-
 ul {
-    display: inline-block;
-    text-align: justify;
-    padding: 0px;
-    margin-top: 20px;
+  display: inline-block;
+  text-align: justify;
+  padding: 0px;
+  margin-top: 20px;
 }
 
 li {
-    display: inline-block;
-    text-align: center;
-    min-width: 30px;
-    height: 40px;
-    margin: 5px;
-    padding: 8px 11px 3px 11px;
-    font-size: 2em;
-    transition: background-color 0.7s;
-    border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  min-width: 30px;
+  height: 40px;
+  margin: 5px;
+  padding: 8px 11px 3px 11px;
+  font-size: 2em;
+  transition: background-color 0.7s;
+  border-radius: 50%;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:visited {
-    color: white;
+  color: white;
 }
 
 li:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .grayed-out {
-    color: gray;
+  color: gray;
 }
 
 @media only screen and (max-width: 500px) {
-    body {
-        height: 100vh;
-    }
-    .box {
-        min-width: 80vw;
-    }
+  body {
+    height: 100vh;
+  }
+  .box {
+    min-width: 80vw;
+  }
 }
 
-@media only screen and (max-width: 1000px) and (orientation:landscape) { 
-    body {
-        height: 100vh;
-    }   
-    .box {
-        width: 70vw;
-    }    
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+  body {
+    height: 100vh;
+  }
+  .box {
+    width: 70vw;
+  }
 }
