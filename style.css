@@ -198,13 +198,14 @@ body {
   text-align: center;
   border-radius: 24px;
 
-  /* Liquid glass effect - translucent */
-  background: linear-gradient(
-    135deg,
-    hsl(0 0% 100% / 65%) 0%,
-    hsl(0 0% 100% / 55%) 50%,
-    hsl(0 0% 100% / 60%) 100%
-  );
+  /* Liquid glass effect - colorful blobs */
+  background:
+    radial-gradient(ellipse 80% 60% at 15% 20%, hsl(280 70% 85% / 60%) 0%, transparent 50%),
+    radial-gradient(ellipse 70% 80% at 85% 25%, hsl(45 80% 85% / 55%) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 70% at 75% 80%, hsl(200 75% 85% / 55%) 0%, transparent 50%),
+    radial-gradient(ellipse 70% 60% at 20% 75%, hsl(320 65% 85% / 50%) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 50% at 50% 50%, hsl(170 70% 88% / 45%) 0%, transparent 60%),
+    hsl(0 0% 100% / 65%);
   backdrop-filter: blur(20px) saturate(180%);
   -webkit-backdrop-filter: blur(20px) saturate(180%);
   border: 1px solid hsl(0 0% 100% / 60%);
@@ -304,6 +305,7 @@ h1 {
 .current-work a:hover {
   text-decoration: underline;
   text-underline-offset: 3px;
+  text-decoration-color: var(--accent-green);
 }
 
 /* Products Section */
