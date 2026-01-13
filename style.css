@@ -190,6 +190,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
+  overflow: visible;
 
   min-width: 420px;
   max-width: 90vw;
@@ -511,7 +512,7 @@ h1 {
     max-width: none;
     padding: 70px 24px 32px;
     position: fixed;
-    top: 50%;
+    top: calc(50% + 30px);
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -586,6 +587,7 @@ h1 {
   .card {
     width: calc(100vw - 24px);
     padding: 65px 20px 28px;
+    top: calc(50% + 25px);
   }
 
   h1 {
